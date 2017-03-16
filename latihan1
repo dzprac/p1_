@@ -1,0 +1,22 @@
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{
+    char nama[99];
+    int nim;
+    cout << "NAMA:";
+    cin >> nama;
+    cout << "NIM:";
+    cin>>nim;
+    system("cls");
+
+
+    cout<<"Nama : " <<nama<<endl;
+    cout<<"NIM :  " <<nim<<endl;
+
+
+    //cout << "\nSelamat datang " << nama << " di mata kuliah AP1." << endl;
+    return 0;
+}
